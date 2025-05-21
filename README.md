@@ -1,4 +1,4 @@
-# *Cardiovascular Disease Risk Prediction*
+# **Cardiovascular Disease Risk Prediction**
 
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,6 +12,7 @@ This project focuses on predicting the risk of cardiovascular disease based on p
 
 ## **Project Structure**
 
+```python
 ├── data/
 │   └── cardio_train.csv           # The dataset used for training
 ├── notebooks/
@@ -27,6 +28,7 @@ This project focuses on predicting the risk of cardiovascular disease based on p
 │       └── preprocess.py
 ├── README.md
 └── requirements.txt
+```
 
 ## **Data Source**
 
