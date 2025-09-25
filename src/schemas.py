@@ -13,6 +13,4 @@ class PredictionInput(BaseModel):
     age_group: str
     blood_pressure_category: str
     pulse_pressure: int
-    
-    class Config:
-        orm_mode = True           
+           
