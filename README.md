@@ -45,7 +45,7 @@ A FastAPI application (`src/main.py`) is built to serve the machine learning mod
 
 ### Endpoints
 
--   `/predict`: Accepts a JSON payload of patient features and returns the predicted risk.
+- `api/predict`: Accepts a JSON payload of patient features and returns the predicted risk.
 
 ### Example Request
 
