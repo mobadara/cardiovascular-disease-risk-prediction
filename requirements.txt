@@ -4,7 +4,7 @@ scikit-learn==1.6.1
 matplotlib
 seaborn
 fastapi
-uvicorn
+uvicorn[standard]
 xgboost==3.0.5
 lightgbm==4.6.0
 pydantic

@@ -11,6 +11,10 @@ def load_model(model_path) -> Any:
     
     Returns:
         model (Any) : The loaded machine learning model.
+        
+    Raises:
+        FileNotFoundError: If the specified model file does not exist.
+        Exception: For any other issues that arise during model loading.
     """
     model = joblib.load(model_path)
     return model
