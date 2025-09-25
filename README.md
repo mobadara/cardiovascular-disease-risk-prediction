@@ -14,17 +14,18 @@ This project focuses on predicting the risk of cardiovascular disease based on p
 
 ```python
 ├── datasets/
-│   └── cardio-train.csv           # The dataset used for training
+│   └── cardio-train.csv
+├── references/
+├── models/          # The dataset used for training
 ├── notebooks/
 │   └── exploratory-data-analysis.ipynb # Notebook for EDA
 │   └── model-training.ipynb        # Notebook for model training and evaluation
 ├── src/
 │   ├── main.py                     # FastAPI application
-│   └── models/                     # Pydantic models for API input/output
-│   │   └── prediction-input.py
-│   │   └── prediction-output.py
-│   └── models/                   # Contains the trained ML model and related utilities
+│   └── models/                                      # Contains the trained ML model and related utilities
 │       ├── model.pkl
+|       |── predictions-input.py
+|       |── predictions-output.py
 │       └── preprocess.py
 ├── README.md
 └── requirements.txt
