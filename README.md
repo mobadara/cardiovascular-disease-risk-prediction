@@ -50,17 +50,25 @@ A FastAPI application (`src/main.py`) is built to serve the machine learning mod
 ### Example Request
 
 ```json
-{
-  "age": 50,
-  "gender": 2,
-  "height": 170,
-  "weight": 70.0,
-  "ap_hi": 120,
-  "ap_lo": 80,
-  "cholesterol": 1,
-  "gluc": 1,
-  "smoke": 0,
-  "alco": 0,
-  "active": 1
-}
+  {
+    "age": 34,
+    "gender": "Female",
+    "height": 112,
+    "cholesterol": "Well Above Normal",
+    "gluc": "Normal",
+    "smoke": "Yes",
+    "alco": "Yes",
+    "active": "Active",
+    "bmi": 21.2,
+    "age_group": "Senior",
+    "blood_pressure_category": "Hypertension Stage 1",
+    "pulse_pressure": 60
+  }
+  ```
+### Access the API at:
+[https://cardiovascular-disease-risk-prediction.onrender.com/docs/](https://cardiovascular-disease-risk-prediction.onrender.com/docs#/)
 
+
+### Author
+##### Twitter [@m_obadara](https://twitter.com/m_obadara)
+##### LinkedIn [Muyiwa Obadara](https://linkedin.com/in/obadara-m)
