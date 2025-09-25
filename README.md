@@ -23,7 +23,7 @@ This project focuses on predicting the risk of cardiovascular disease based on p
 │   └── models/                     # Pydantic models for API input/output
 │   │   └── prediction-input.py
 │   │   └── prediction-output.py
-│   └── ml_model/                   # Contains the trained ML model and related utilities
+│   └── models/                   # Contains the trained ML model and related utilities
 │       ├── model.pkl
 │       └── preprocess.py
 ├── README.md
