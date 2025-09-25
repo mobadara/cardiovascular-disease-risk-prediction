@@ -13,7 +13,7 @@ This project focuses on predicting the risk of cardiovascular disease based on p
 ## **Project Structure**
 
 ```python
-├── data/
+├── datasets/
 │   └── cardio-train.csv           # The dataset used for training
 ├── notebooks/
 │   └── exploratory-data-analysis.ipynb # Notebook for EDA
